@@ -1,0 +1,152 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{t1enc}
+\usepackage[space]{grffile}
+\usepackage[round, longnamesfirst]{natbib}  % Bindet den natbib-standard fuer das Zitieren ein
+\usepackage{epsfig}
+\usepackage{chngcntr}
+\usepackage[latin1]{inputenc}   % Ermoeglicht Sonderzeichen direkt einzugeben
+\usepackage[T1]{fontenc}        % Garantiert saubere Worttrennung bei Umlauten etc.
+\usepackage{color}              % Farbpaket
+\usepackage{amsmath,amsfonts,amssymb}   % ermoeglicht mathematische Sonderzeichen
+\usepackage[english]{babel}     %
+\usepackage{ae}                 %
+%\usepackage{graphicx,subfigure}           % Ermoeglicht das Einbinden von Bildern in allen Formaten
+\usepackage{graphicx}
+\usepackage{longtable}          % zum erstellen von Tabellen ber mehrere Seiten
+\usepackage{multirow}           % zum Verbinden von Zeilen innerhalb einer Tabelle
+%\usepackage{pictexwd}           % PicTex, ein Graphikpaket
+\usepackage{pst-all, multido}   % psTricks, ein Graphikpaket
+\usepackage{url}
+\usepackage[doublespacing]{setspace}
+\usepackage{booktabs,caption,fixltx2e,array,dcolumn}
+\usepackage{parskip}
+\usepackage{etoolbox}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{morefloats}
+\usepackage[section]{placeins} % Mit FloatBarrier kann verhindert werden, dass Float in der nächsten Section angezeigt werden
+\usepackage[bottom]{footmisc} % Fußnoten werden ganz unten angezeigt
+\setcitestyle{authoryear, open={((},close={))}}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
+
+\makeatletter
+\interfootnotelinepenalty 10000
+\patchcmd{\Ginclude@eps}{"#1"}{#1}{}{}
+\makeatother
+
+\makeatletter
+\newcommand\tageq{%
+  \ifmeasuring@\else
+    \refstepcounter{equation}%
+  \fi
+  \tag{\theequation}%
+}
+\makeatother
+
+\newcommand\fnote[1]{\captionsetup{font=tiny}\caption*{#1}}
+
+%\parindent 0cm
+%\renewcommand{\baselinestretch}{1}
+
+\renewcommand{\bibnumfmt}[1]{#1.}
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% ________________ EINRICHTEN DES DOKUMENTS ______________________%
+
+%\bibliographystyle{plainnat}    % legt den Stil fuer das Inhaltsverzeichnis fest
+
+\oddsidemargin 0.0in \evensidemargin 0.0in \textwidth 15.5cm \topmargin -0.8in \textheight 24.5cm
+\setlength{\parskip}{1pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\baselinestretch}{1}
+
+
+\setlength{\intextsep}{0.5cm} % Legt den Abstand zwischen Gleitobjekten und dem darüber und darunter angeordneten Fließtext fest.
+
+%\oddsidemargin 0.1in \evensidemargin 0.1in \textwidth 15.5cm \topmargin -0.4in \textheight 24.5cm
+%\parindent 0cm      % legt die Seitenraender fest
+
+\pagestyle{plain}          % leere Kopfzeile, Seitennummer in der Mitte der Fusszeile
+
+\newcommand{\bs}{\boldsymbol}  % shortcut zur Erzeugung von fetten Sympolen in der Mathe-Umgebung
+
+%\renewcommand{\baselinestretch}{1.25}
+% 1,5 -facher Zeilenabstand (Standard ist 1,2-facher Zeilenabstand, also 1,2*1,25 = 1,5
+
+\begin{document}
+
+\pagenumbering{roman}   % roemische Zahlen zur Seitennumerierung
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+
+\begin{titlepage}       % Umgebung fuer Titelseite, frei gestaltbar
+
+\thispagestyle{empty}   % keine Numerierung auf Titelseite
+
+\begin{center}
+\includegraphics[width=13cm]{Bild.png}
+\end{center}
+
+\begin{center}
+
+\vspace*{1.5cm}
+{\bf  \Large Social Networks, Employee Selection and Labor Market Outcomes} \\
+\vspace*{2cm} 
+\textbf{E512 Master Seminar on Organization and Behavior of Firms}
+\\
+Prof. Dr. Georg Wamser
+\\
+\vspace*{0.5cm} 
+Winter Term 2016-2017\\
+\end{center}
+
+\vfill
+\begin{flushright}
+    \emph{Kseniia Zviagintseva}\\
+    \textit{Student-ID: 4044499}\\
+     \textit{Management and Economics}\\
+ T\"ubingen, \today
+  
+
+
+
+
+\end{flushright}
+
+
+
+% 
+% \begin{center}
+% $ $			% oeffnet und schliesst eine Matheumgebung (Trick, um den Titel nach unten zu rutschen
+% \vspace{4cm}
+% 
+% {\LARGE TITEL}
+% \vskip 4cm
+% 
+% Diese Seite ist frei gestaltbar
+% \end{center}
+
+\end{titlepage}
+
+\newpage                % erzwingt an dieser Stelle einen Seitenumbruch
+
+\listoffigures
+\newpage
+
+
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}      % Seitenzahlen wieder arabisch numerieren
+\setcounter{page}{1}        % Ruecksetzen des Seitenzahlzaehlers auf 1
+
+\end{document}

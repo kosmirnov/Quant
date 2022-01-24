@@ -1,0 +1,1062 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.25)  7 DEC 2017 12:40
+entering extended mode
+**./NM_S01.tex
+(NM_S01.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX\tex\latex\base\t1enc.sty"
+Package: t1enc 1994/06/01 Standard LaTeX package
+)
+("C:\Program Files\MiKTeX\tex\latex\oberdiek\grffile.sty"
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+)
+("C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count88
+)
+("C:\Program Files\MiKTeX\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+("C:\Program Files\MiKTeX\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+("C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files\MiKTeX\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen107
+))
+("C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+("C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks20
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX\tex\latex\babel-english\english.ldf"
+Language: english 2017/01/24 v3.3q English support from the babel system
+
+("C:\Program Files\MiKTeX\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count101
+\U@D=\dimen116
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX\tex\latex\ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+("C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+
+("C:\Program Files\MiKTeX\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count102
+\LTcapwidth=\dimen117
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count103
+\LT@rows=\count104
+\c@LT@tables=\count105
+\c@LT@chunks=\count106
+\LT@p@ftn=\toks22
+)
+("C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count107
+\multirow@dima=\skip53
+\bigstrutjot=\dimen118
+)
+("C:\Program Files\MiKTeX\tex\latex\pstricks\pst-all.sty"
+Package: pst-all 2008/01/01 the main pstricks tools
+
+("C:\Program Files\MiKTeX\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2017/03/17 v0.63 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX\tex\generic\pstricks\pstricks.tex"
+("C:\Program Files\MiKTeX\tex\generic\xkeyval\pst-xkey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count108
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+("C:\Program Files\MiKTeX\tex\generic\pstricks\pst-fp.tex"
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count109
+\pstFP@xia=\count110
+\pstFP@xib=\count111
+\pstFP@xfa=\count112
+\pstFP@xfb=\count113
+\pstFP@rega=\count114
+\pstFP@regb=\count115
+\pstFP@regs=\count116
+\pstFP@times=\count117
+)
+("C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen119
+\pgfutil@tempdimb=\dimen120
+
+("C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common-lists.tex"))
+("C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+("C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks28
+)) ("C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex"
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex"
+\pgf@x=\dimen121
+\pgf@xa=\dimen122
+\pgf@xb=\dimen123
+\pgf@xc=\dimen124
+\pgf@y=\dimen125
+\pgf@ya=\dimen126
+\pgf@yb=\dimen127
+\pgf@yc=\dimen128
+\c@pgf@counta=\count118
+\c@pgf@countb=\count119
+\c@pgf@countc=\count120
+\c@pgf@countd=\count121
+\pgfutil@tempcnta=\count122
+\pgfutil@tempcntb=\count123
+)
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen129
+\pgfmath@count=\count124
+\pgfmath@box=\box32
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex"
+)
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+")
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code
+.tex")
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex")
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex"
+) ("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+")
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmet
+ics.code.tex")))
+("C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count125
+))
+\pgffor@iter=\dimen130
+\pgffor@skip=\dimen131
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+)
+\psLoopIndex=\count126
+
+`PSTricks' v2.73a  <2017/05/22> (tvz)
+\pst@dima=\dimen132
+\pst@dimb=\dimen133
+\pst@dimc=\dimen134
+\pst@dimd=\dimen135
+\pst@dimg=\dimen136
+\pst@dimh=\dimen137
+\pst@dimm=\dimen138
+\pst@dimn=\dimen139
+\pst@dimo=\dimen140
+\pst@dimp=\dimen141
+\pst@hbox=\box33
+\pst@ibox=\box34
+\pst@boxg=\box35
+\pst@cnta=\count127
+\pst@cntb=\count128
+\pst@cntc=\count129
+\pst@cntd=\count130
+\pst@cntg=\count131
+\pst@cnth=\count132
+\pst@cntm=\count133
+\pst@cntn=\count134
+\pst@cnto=\count135
+\pst@cntp=\count136
+\@zero=\count137
+\pst@toks=\toks34
+("C:\Program Files\MiKTeX\tex\generic\pstricks\pstricks.con")
+\psunit=\dimen142
+\psxunit=\dimen143
+\psyunit=\dimen144
+\pst@C@@rType=\count138
+\pslinewidth=\dimen145
+\psk@startLW=\dimen146
+\psk@endLW=\dimen147
+\pst@customdefs=\toks35
+\pslinearc=\dimen148
+\pst@symbolStep=\dimen149
+\pst@symbolWidth=\dimen150
+\pst@symbolLinewidth=\dimen151
+\everypsbox=\toks36
+\psframesep=\dimen152
+\pslabelsep=\dimen153
+\sh@wgridXunit=\dimen154
+\sh@wgridYunit=\dimen155
+\pst@shift=\dimen156
+)
+File: pstricks.tex 2017/05/22 v2.73a `PSTricks' (tvz,hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pstricks\pst-fp.tex")
+File: pst-fp.tex 2017/05/22 v2.73a `PST-fp' (hv)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-plot\pst-plot.sty"
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+
+("C:\Program Files\MiKTeX\tex\latex\xkeyval\pst-xkey.sty"
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+)
+("C:\Program Files\MiKTeX\tex\latex\multido\multido.sty"
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+("C:\Program Files\MiKTeX\tex\generic\multido\multido.tex"
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count139
+\multidocount=\count140
+\multido@stuff=\toks37
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-plot\pst-plot.tex"
+("C:\Program Files\MiKTeX\tex\generic\pst-tools\pst-tools.tex"
+`PST-tools' v0.09, 2017/10/04 (hv))
+("C:\Program Files\MiKTeX\tex\generic\pstricks-add\pstricks-add.tex"
+("C:\Program Files\MiKTeX\tex\generic\pst-node\pst-node.tex"
+ v1.39, 2017/01/20
+\psrow=\count141
+\pscol=\count142
+\psmatrixcnt=\count143
+\psrowsep=\skip54
+\pscolsep=\skip55
+\pst@args=\count144
+\num@pts=\count145
+\pst@argcnt=\count146
+)
+("C:\Program Files\MiKTeX\tex\generic\pst-arrow\pst-arrow.tex"
+`pst-arrow' v0.01, 2016/09/01 (dr,hv)
+\pshooklength=\dimen157
+\pshookwidth=\dimen158
+)
+("C:\Program Files\MiKTeX\tex\generic\pst-3d\pst-3d.tex"
+`PST-3d' v1.11, 2010/02/14 (tvz))
+("C:\Program Files\MiKTeX\tex\generic\pst-math\pst-math.tex"
+`pst-math' v0.63 , (CJ,hv)) `pstricks-add' v3.84, 2017/09/16 (dr,hv)
+\psparallelogramsep=\dimen159
+\pst@cntC=\count147
+\chart@ColorIndex=\dimen160
+\chart@ColorStep=\dimen161
+\pst@chartHeight=\dimen162
+\pst@chartStackDepth=\dimen163
+\pst@chartStackWidth=\dimen164
+\chart@Toggle=\count148
+\psVectorCtr=\count149
+)
+ v1.84, 2017/08/31 (tvz,hv)
+\pstRadUnit=\dimen165
+\pstRadUnitInv=\dimen166
+\pst@linecnt=\count150
+\RCD@file=\read1
+\psxlabelsep=\dimen167
+\psylabelsep=\dimen168
+\psk@subticksize=\dimen169
+\pst@xticksizeA=\dimen170
+\pst@xticksizeB=\dimen171
+\pst@xticksizeC=\dimen172
+\pst@yticksizeA=\dimen173
+\pst@yticksizeB=\dimen174
+\pst@yticksizeC=\dimen175
+\@digitcounter=\count151
+\psk@llx=\dimen176
+\psk@lly=\dimen177
+\psk@urx=\dimen178
+\psk@ury=\dimen179
+\pst@xunit=\dimen180
+\pst@yunit=\dimen181
+)
+File: pst-plot.tex 2017/08/31 1.84 `pst-plot' (tvz,hv)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-node\pst-node.sty"
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+("C:\Program Files\MiKTeX\tex\generic\pst-node\pst-node.tex")
+File: pst-node.tex 2017/08/31 1.84 `pst-node' (tvz,hv)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-tree\pst-tree.sty"
+Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
+
+("C:\Program Files\MiKTeX\tex\generic\pst-tree\pst-tree.tex"
+ v1.13, 2017/02/18(tvz,dg,hv)
+\pstree@rootbox=\box36
+\pstree@box=\box37
+\psnodecnt=\count152
+\pstreelevel=\count153
+\pstreecnt=\count154
+\pstree@cnt=\count155
+\pstree@stop=\count156
+)
+File: pst-tree.tex 2017/02/18 1.13 `pst-tree' (tvz,hv)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-grad\pst-grad.sty"
+Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-grad\pst-grad.tex"
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
+File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-coil\pst-coil.sty"
+Package: pst-coil 2010/02/01 package wrapper for pst-coil.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-coil\pst-coil.tex"
+ v1.06, 2006/11/27 ("C:\Program Files\MiKTeX\tex\generic\pst-node\pst-node.tex"
+))
+File: pst-coil.tex 2015/05/13 v1.07 `PST-coil' (tvz,hv)
+) ("C:\Program Files\MiKTeX\tex\latex\pst-text\pst-text.sty"
+Package: pst-text 2006/01/01 package wrapper for pst-text.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-text\pst-text.tex"
+ v1.00, 2006/11/05(tvz,hv))
+File: pst-text.tex 2006/11/05 1.00 `pst-text' (tvz)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-3d\pst-3d.sty"
+Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-3d\pst-3d.tex")
+File: pst-3d.tex 2006/11/05 v1.00 `PST-3d' (hv)
+)
+("C:\Program Files\MiKTeX\tex\latex\pst-eps\pst-eps.sty"
+Package: pst-eps 2005/05/20 package wrapper for pst-eps.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-eps\pst-eps.tex"  v1.00, 2006/11/04
+\pst@epsout=\write3
+\pst@tempout=\write4
+)
+File: pst-eps.tex 2006/11/04 1.00 `pst-eps' (tvz)
+) ("C:\Program Files\MiKTeX\tex\latex\pst-fill\pst-fill.sty"
+Package: pst-fill 2005/09/13 package wrapper for pst-fill.tex (hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pst-fill\pst-fill.tex"
+`PST-Fill' v1.01, 2007/03/10 (tvz,dg,hv)
+\pst@fillbox=\box38
+)
+File: pst-fill.tex 2007/03/10 v1.01 `PST-fill' (tvz,dg)
+)
+("C:\Program Files\MiKTeX\tex\latex\pstricks-add\pstricks-add.sty"
+("C:\Program Files\MiKTeX\tex\latex\pst-math\pst-math.sty"
+Package: pst-math 2014/07/30 package wrapper for PSTricks pst-math.tex
+
+("C:\Program Files\MiKTeX\tex\generic\pst-math\pst-math.tex")
+File: pst-math.tex 2007/03/10 v1.01 `PST-math' (hv)
+)
+Package: pstricks-add 2010/02/11 v. 0.14 package wrapper for pstricks-add.tex (
+hv)
+
+("C:\Program Files\MiKTeX\tex\generic\pstricks-add\pstricks-add.tex")
+File: pstricks-add.tex 2007/03/10 v1.01 `PSTricks-add' (hv)
+))
+("C:\Program Files\MiKTeX\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen182
+\lightrulewidth=\dimen183
+\cmidrulewidth=\dimen184
+\belowrulesep=\dimen185
+\belowbottomsep=\dimen186
+\aboverulesep=\dimen187
+\abovetopsep=\dimen188
+\cmidrulesep=\dimen189
+\cmidrulekern=\dimen190
+\defaultaddspace=\dimen191
+\@cmidla=\count157
+\@cmidlb=\count158
+\@aboverulesep=\dimen192
+\@belowrulesep=\dimen193
+\@thisruleclass=\count159
+\@lastruleclass=\count160
+\@thisrulewidth=\dimen194
+)
+("C:\Program Files\MiKTeX\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@tempdima=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
+)
+\c@ContinuedFloat=\count161
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+))
+("C:\Program Files\MiKTeX\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) ("C:\Program Files\MiKTeX\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen258
+\extrarowheight=\dimen259
+\NC@list=\toks38
+\extratabsurround=\skip56
+\backup@length=\skip57
+)
+("C:\Program Files\MiKTeX\tex\latex\tools\dcolumn.sty"
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+("C:\Program Files\MiKTeX\tex\latex\ltxmisc\parskip.sty"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+("C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count162
+)
+("C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count163
+\Gm@cntv=\count164
+\c@Gm@tempcnt=\count165
+\Gm@bindingoffset=\dimen260
+\Gm@wd@mp=\dimen261
+\Gm@odd@mp=\dimen262
+\Gm@even@mp=\dimen263
+\Gm@layoutwidth=\dimen264
+\Gm@layoutheight=\dimen265
+\Gm@layouthoffset=\dimen266
+\Gm@layoutvoffset=\dimen267
+\Gm@dimlist=\toks39
+
+("C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen268
+\TX@old@table=\dimen269
+\TX@old@col=\dimen270
+\TX@target=\dimen271
+\TX@delta=\dimen272
+\TX@cols=\count166
+\TX@ftn=\toks40
+)
+("C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count167
+\c@subtable=\count168
+)
+("C:\Program Files\MiKTeX\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Program Files\MiKTeX\tex\latex\footmisc\footmisc.sty"
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks41
+\footnotemargin=\dimen273
+\c@pp@next@reset=\count169
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+("C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (NM_S01.aux
+! Undefined control sequence.
+l.2 \abx@aux@refcontext
+                       {anyt/global//global/global}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \abx@aux@refcontext{a
+                         nyt/global//global/global}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+\openout1 = `NM_S01.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+ ("C:\Program Files\MiKTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count170
+\scratchdimen=\dimen274
+\scratchbox=\box39
+\nofMPsegments=\count171
+\nofMParguments=\count172
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count173
+\MPscratchDim=\dimen275
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
+\everyMPtoPDFconversion=\toks43
+) ("C:\Program Files\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 112.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=717.00946pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<Bild.png, id=6, 1003.75pt x 298.11375pt>
+File: Bild.png Graphic file (type png)
+ <use Bild.png>
+Package pdftex.def Info: Bild.png used on input line 125.
+(pdftex.def)             Requested size: 369.88582pt x 109.85912pt.
+ [1 <./Bild.png>]
+(NM_S01.lof
+
+! Package etoolbox Error: Boolean '\ifciterequest' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \boolfalse {citerequest}
+                            \boolfalse {citetracker}\boolfalse {pagetracker}...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifcitetracker' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...false {citerequest}\boolfalse {citetracker}
+                                                  \boolfalse {pagetracker}\b...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifpagetracker' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...false {citetracker}\boolfalse {pagetracker}
+                                                  \boolfalse {backtracker}\r...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifbacktracker' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...false {pagetracker}\boolfalse {backtracker}
+                                                  \relax
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: No counter 'refsection' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \defcounter {refsection}{0}
+                               \relax
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+\tf@lof=\write5
+\openout5 = `NM_S01.lof'.
+
+ [1] (NM_S01.toc
+
+! Package etoolbox Error: Boolean '\ifciterequest' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \boolfalse {citerequest}
+                            \boolfalse {citetracker}\boolfalse {pagetracker}...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifcitetracker' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...false {citerequest}\boolfalse {citetracker}
+                                                  \boolfalse {pagetracker}\b...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifpagetracker' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...false {citetracker}\boolfalse {pagetracker}
+                                                  \boolfalse {backtracker}\r...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package etoolbox Error: Boolean '\ifbacktracker' undefined.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...false {pagetracker}\boolfalse {backtracker}
+                                                  \relax
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: No counter 'refsection' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \defcounter {refsection}{0}
+                               \relax
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: No counter 'refsection' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \defcounter {refsection}{0}
+                               \relax
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: No counter 'refsection' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \defcounter {refsection}{0}
+                               \relax
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+\tf@toc=\write6
+\openout6 = `NM_S01.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 190.
+("C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 190.
+
+("C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.1771pt too wide) in paragraph at lines 190--191
+[]\T1/aer/m/n/12 Brandimarte, Paolo. \T1/aer/m/it/12 Nu-mer-i-cal Meth-ods in F
+i-nance and Eco-nomics - A MATLAB-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+[1] (NM_S01.aux) ) 
+Here is how much of TeX's memory you used:
+ 15537 strings out of 493323
+ 258425 string characters out of 3140792
+ 393655 words of memory out of 3000000
+ 18699 multiletter control sequences out of 15000+200000
+ 21470 words of font info for 52 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,5n,92p,794b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on NM_S01.pdf (5 pages, 123016 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

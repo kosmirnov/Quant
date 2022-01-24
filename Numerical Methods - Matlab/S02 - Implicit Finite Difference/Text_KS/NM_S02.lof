@@ -1,0 +1,13 @@
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces European Put value for different S - Implicit Scheme vs. Theoretical\relax }}{5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Implicit Scheme - Error vs. Stock Price\relax }}{6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Implicit Scheme - Error vs. Stock Price vs. Time to Maturity\relax }}{6}
+\contentsline {figure}{\numberline {4}{\ignorespaces European Put value for different S: Crank-Nicolson Scheme vs. Theoretical\relax }}{11}
+\contentsline {figure}{\numberline {5}{\ignorespaces Crank-Nicolson Scheme - Error vs. Stock Price\relax }}{11}
+\contentsline {figure}{\numberline {6}{\ignorespaces Crank-Nicolson Scheme - Error vs. Stock Price vs. Time to Maturity\relax }}{12}
+\contentsline {figure}{\numberline {7}{\ignorespaces 2D-Errors - Standard Schemes vs. Extrapolation\relax }}{13}
+\contentsline {figure}{\numberline {8}{\ignorespaces Standard Implicit Scheme vs. Extrapolation (3D-Errors)\relax }}{13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Standard Crank-Nicolson Scheme vs. Extrapolation (3D-Errors)\relax }}{14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Errors Development for increasing step-sizes MxN (log-log-scale))\relax }}{15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Trade-Off: Computational Time vs. Error\relax }}{15}
+\contentsline {figure}{\numberline {12}{\ignorespaces Errors Development for increasing step-sizes MxN (log-log-scale))\relax }}{16}

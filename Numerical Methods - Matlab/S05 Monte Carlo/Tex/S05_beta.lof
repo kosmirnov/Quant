@@ -1,0 +1,10 @@
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces Euler Scheme vs. Milstein Scheme - Continuous Path Convergence\relax }}{4}
+\contentsline {figure}{\numberline {2}{\ignorespaces Euler Scheme vs. Milstein Scheme - Cont. Path Convergence and Discretization Error\relax }}{4}
+\contentsline {figure}{\numberline {3}{\ignorespaces Euler Scheme vs. Milstein Scheme - Computational Effort\relax }}{5}
+\contentsline {figure}{\numberline {4}{\ignorespaces Accuracy of the CVT for increasing N - Usual Estimator vs. CVT\relax }}{9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Accuracy of the CVT for increasing N - Estimated Error and Estimated Standard Deviation\relax }}{10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Efficiency of the CVT for increasing N - absolute Computational Effort\relax }}{10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Efficiency of the CVT for increasing N - Price Convergence and $\mathaccentV {hat}05E{\sigma }$\relax }}{11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Comparison of Time Increment Convergence for different N=1000 and N=10,000\relax }}{12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Time Increment Convergence - Estimated Standard Deviation\relax }}{12}

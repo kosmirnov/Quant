@@ -1,0 +1,13 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Black-Scholes-Merton model by Fourier Inversion}{1}
+\contentsline {subsection}{\numberline {2.1}Theoretical Framework}{1}
+\contentsline {subsection}{\numberline {2.2}Discussion of Results}{2}
+\contentsline {subsection}{\numberline {2.3}Technical Implementation}{5}
+\contentsline {section}{\numberline {3}A Stochastic Volatility Model}{5}
+\contentsline {subsection}{\numberline {3.1}Theoretical Framework}{6}
+\contentsline {subsection}{\numberline {3.2}Sample Calculation}{8}
+\contentsline {subsection}{\numberline {3.3}Correction of the ''Heston trap''}{8}
+\contentsline {subsection}{\numberline {3.4}Call Prices with Stochastic Volatility}{9}
+\contentsline {subsection}{\numberline {3.5}Technical Implementation}{11}
+\contentsline {section}{\numberline {4}References}{12}

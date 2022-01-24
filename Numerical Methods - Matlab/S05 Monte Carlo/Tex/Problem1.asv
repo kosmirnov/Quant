@@ -1,0 +1,141 @@
+% ASSIGNMENT #5: 
+% Monte Carlo Methods: Improving Accuracy and Efficiency %
+% by Konstantin Smirnov ID: 3980253 %
+
+% Problem 1: Improving strong convergence with the Milstein scheme %
+%% Problem 1a: Comparison of continous path vs. Euler vs. Milstein
+
+% INPUT %
+clear;
+clc;
+close all;
+
+seed= 7777; % seed
+nn11 = 1000; % overall number of increments in the (approx.) cont.  path      % discretization factor was set to mm=20 in this case
+nn12= 50;
+S0 = 100;
+T = 0.5;
+t= 0;
+r = 0.0953;
+eta = 0.25;
+
+[stream1, ~] = RandStream.create('mrg32k3a','NumStreams',2,'Seed',seed);
+err01 = randn(stream1,nn11,1); % discretized version of Brownian Motion
+
+
+
+%% Problem 1a) Comparison of discretization paths
+
+[S_Euler,S_Euler_Last,~]=euler(S0,t,T,r,eta,nn11,nn12,err01);
+[S_Milstein,S_Milstein_Last,~]=milstein(S0,t,T,r,eta,nn11,nn12,err01);
+[S,S_Last]=cont(S0,T,t,r,eta,nn11,err01);
+
+
+Splot=S(1:20:nn11+1);
+time=(1:length(Splot))./100;
+
+figure;
+plot(time,Splot,'g',time,S_Euler,'--',time,S_Milstein,'-o','LineWidth',1.5);
+legend('continous path',...
+        'Euler scheme',...
+        'Milstein scheme','Location','northeast');
+xlabel('T-t');    
+ylabel('S');
+xlim([0 0.5]);
+title('Continous path vs. Euler scheme vs. Milstein scheme');
+saveas(gcf,'plot11.jpeg');
+
+%% Problem 1b: Accuracy and Efficiency of Milstein and Euler Scheme %%
+
+nn21=10000;
+% nn22_max=10000;
+% ti=10:20:nn22_max;
+
+for i=1:14;
+    ti(i)=2^i;
+end
+
+
+% 1b) Euler Scheme vs Milstein Scheme: Discretization Error & Time Efficiency
+% [stream1, ~] = RandStream.create('mrg32k3a','NumStreams',2,'Seed',seed);
+err21 = randn(stream1,nn21,1); % discretized version of Brownian Motion
+
+accuracy=zeros(length(ti),4);
+
+accuracy(:,1)=ti;
+[~,accuracy(:,2)]=cont(S0,T,t,r,eta,nn21,err21);
+
+% Loop for Euler scheme 
+for ii=1:length(ti)
+[~,accuracy(ii,3),time_efficiency(ii,1)]=euler(S0,t,T,r,eta,nn21,ti(ii),err21);
+
+end
+
+% Loop for Milstein scheme
+for ii=1:length(ti)
+[~,accuracy(ii,4),time_efficiency(ii,2)]=milstein(S0,t,T,r,eta,nn21,ti(ii),err21);
+end
+
+% Compute disct. errors
+errors_euler=accuracy(:,2)-accuracy(:,3);
+errors_milstein=accuracy(:,2)-accuracy(:,4);
+%% plots of 1b)
+figure;
+semilogx(accuracy(:,1),accuracy(:,2),...
+     accuracy(:,1),accuracy(:,3),...
+     accuracy(:,1),accuracy(:,4),'LineWidth',1.5);
+ legend('theoretical value',...
+        'Euler scheme',...
+        'Milstein scheme','Location','northeast');
+xlabel('Number of time increments (log-scale)');    
+ylabel('S');
+xlim([10 ti(end)]);
+% title('Euler scheme vs. Milstein scheme: Accuracy');
+saveas(gcf,'plot12.jpeg');
+
+figure;
+semilogx(accuracy(:,1),errors_euler,...
+     accuracy(:,1),errors_milstein,...
+     'LineWidth',1.5);
+ legend('Euler scheme',...
+        'Milstein scheme','Location','southeast');
+xlabel('Number of time increments (log-scale)');    
+ylabel('Error');
+xlim([10 ti(end)]);
+% title('Euler vs. Milstein: Accuracy of Discretization Errors');
+saveas(gcf,'plot13.jpeg');
+
+
+plot2=figure;
+plot(time_efficiency(:,1),errors_euler,...
+     'LineWidth',1.5);
+ hold on;
+plot(time_efficiency(:,2),errors_milstein,.....
+     'LineWidth',1.5);
+ legend('Euler Scheme',...
+        'Milstein scheme','Location','northeast');
+xlabel('computational time');    
+ylabel('S');
+gca.XAxis.TickLabelFormat = '%,.1f';
+% title('Euler scheme vs. Milstein scheme: Time Efficiency');
+saveas(gcf,'plot14.jpeg');
+% plot3=figure;
+% plot(time(:,1),accuracy(:,3),...
+%  'LineWidth',1.5);
+%  h=legend('theoretical value',...
+%         'Euler scheme',...
+%         'Milstein scheme','Location','southeast');
+% xlabel('t');    
+% ylabel('S');
+% title('Continous path vs. Euler scheme vs. Milstein scheme');
+% 
+% plot4=figure;
+% plot(time(:,2),accuracy(:,4),...
+%  'LineWidth',1.5);
+%  h=legend('theoretical value',...
+%         'Euler scheme',...
+%         'Milstein scheme','Location','southeast');
+% xlabel('t');    
+% ylabel('S');
+% title('Continous path vs. Euler scheme vs. Milstein scheme');
+
