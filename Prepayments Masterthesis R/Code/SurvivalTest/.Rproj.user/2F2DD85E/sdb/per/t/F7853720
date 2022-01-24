@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(survival)\nmydata <- read.csv(\"survival_unemployment.csv\")\nattach(mydata)\n\n# Define variables\n\ntime <- spell\nevent <- event\nx<- cbind(logwage,ui,age)\ngroup <-ui\n\n# descriptive statistics\nsummary(time)\nsummary(event)\nsummary(x)\nsummary(group)\n\n#1. KPM statistics\nkmsurvival <- survfit(Surv(time,event)~1)\nsummary(kmsurvival)\nplot(kmsurvival, xlab=\"time\", ylab=\"cum. Survival Prob.\")\n\n#1.1 Grouped KPM\nkmsurvgroup <- survfit(Surv(time,event)~group)\nsummary(kmsurvgroup)\nplot(kmsurvgroup, xlab=\"time\", ylab=\"cum. Survival Prob.\")\n\n#2. CPH\ncph <- coxph(Surv(time,event)~x)\nsummary(cph)\n\n",
+    "created" : 1505209032877.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4094160010",
+    "id" : "F7853720",
+    "lastKnownWriteTime" : 1505147438,
+    "last_content_update" : 1505147438,
+    "path" : "C:/Users/Kons/OneDrive/MASTERARBEIT/R/SurvivalTest/RAni.R",
+    "project_path" : "RAni.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
